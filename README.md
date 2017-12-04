@@ -10,7 +10,7 @@ The program supports multiple DS18B20 sensors in parasite power mode.
 
 To get started:
 
-1. Edit server.login(<email address>, <email password>) to include your email and password
+1. Edit server.login('email address', 'email password') to include your email and password
 2. Edit server.sendmail() to include your carrier-specific SMS gateway
 3. Find the address of each connected sensor (In terminal use command "cd /sys/bus/w1/devices" then "ls" to get a list of addresses)
 4. Instantiate your sensor objects with a name and their w1 address
