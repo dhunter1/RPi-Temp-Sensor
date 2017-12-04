@@ -4,7 +4,7 @@ Monitor ambient temperature and send SMS temperature notifications from a Raspbe
 This program monitors ambient temperature using a Raspberry Pi and a DS18B20 temperature sensor that communicates over a 1-Wire bus.
 If the ambient temperature goes above 76*F, the program will send a text message to a chosen recipient using GMail's SMTP server.
 
-This project was created to monitor temperatures in a data center remotely and send early warning alerts to identify and resolve high ambient temperatures before it becomes a problem.
+This project was created to monitor temperatures in a data center remotely and send early warning alerts to preventively identify and correct high ambient temperatures.
 
 The program supports multiple DS18B20 sensors in parasite power mode.
 
