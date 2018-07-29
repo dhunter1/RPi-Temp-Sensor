@@ -33,7 +33,7 @@ class Sensor:
 def send_temp_reading():
     server = smtplib.SMTP('smtp.gmail.com', 587)                        #Connect to Gmail Server
     server.starttls()
-    server.login('temperaturenotifications@gmail.com', 'TempBot1')
+    server.login('temperaturenotifications@gmail.com', '<password>')
     message = '\nTemperature Alert: \n'
     for sensor in sensors:
         sensor.update_temp_sensor()
